@@ -1,16 +1,14 @@
 import React from 'react';
+import Form from './Form'
 
 require('normalize.css/normalize.css');
 require('../styles/App.css');
-
-let appImage = require('../images/app-icon.png');
 
 class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <img src={appImage} alt="App Icon" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
+				<Form />
       </div>
     );
   }
